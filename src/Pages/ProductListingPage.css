@@ -1,0 +1,16 @@
+.product-listing {
+  text-align: center;
+  padding: 20px;
+}
+
+.centered {
+  margin-bottom: 20px;
+}
+
+.pokemon-grid {
+  display: grid;
+  /*  5  */
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+}
