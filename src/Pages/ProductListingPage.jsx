@@ -30,7 +30,6 @@ const ProductListingPage = () => {
       <div className="pokemon-grid">
         {pokemonList.map((pokemon) => {
           const imageUrl = getImageUrl(pokemon.url.split("/")[6]);
-          console.log("Image URL:", imageUrl);
           return (
             <PokemonCard
               key={pokemon.name}
