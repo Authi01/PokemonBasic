@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { fetchPokemonDetails } from "../Api";
+import { fetchPokemonDetails } from "../Utils/Api";
+import "../Utils/Product.css";
 
 const ProductDescriptionPage = () => {
   const { name } = useParams();
